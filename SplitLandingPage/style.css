@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --left-bg-color: rgba(27,104,181,0.7);
+    --right-bg-color: rgba(43,43,43,0.8);
+    --left-btn-hover-color: rgb(27,104,181);
+    --right-btn-hover-color: rgb(72, 191, 63);
+    --hover-width: 75%;
+    --other-width: 25%;
+    --speed: 1000ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.left .btn:hover{
+    background-color: var(--left-btn-hover-color);
+    border-color: var(--left-btn-hover-color);
+}
+
+.right .btn:hover{
+    background-color: var(--right-btn-hover-color);
+    border-color: var(--right-btn-hover-color);
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+.split {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left {
+    left: 0;
+    background: url('https://www.gamespot.com/a/uploads/original/1568/15683559/3201502-nintendo-switch-review-promo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.left::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg-color);
+}
+
+.split.right{
+    right: 0;
+    background: url('https://cdn.mos.cms.futurecdn.net/eH7muHj6y4RyJ5QYkGX8oT.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split.right,.split.left,.split.right::before,.split.left::before{
+    transition: all var(--speed) ease-in-out;
+}
+
+.split.right::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg-color);
+}
+
+.hover-left .left{
+    width: var(--hover-width);
+}
+
+.hover-left .right{
+    width: var(--other-width);
+}
+
+.hover-right .right{
+    width: var(--hover-width);
+}
+
+.hover-right .left{
+    width: var(--other-width);
+}
+
+@media(max-width: 800px){
+    h1{
+        font-size: 2rem;
+        top:30%;
+    }
+
+    .btn {
+        padding: 1.2rem;
+        width: 1.2rem;
+    }
+}
