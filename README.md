@@ -1,5 +1,7 @@
 # 50-Project-in-50-Days
 
+Learned a lot while following along with the course provided by Brad(50 Project in 50 days). This course helped me alot to improve CSS concepts like flexbox,different element selectors,specifity,pseudo classes and webkit concepts. I would also recommend beginners to try [CSS Diner](https://flukeout.github.io/) to clear the concpts of different selectors.I also learned a lot about different javascript concepts like events in js,timers,'this' keyword,different properties of an element, how to create and destroy an element using DOM and so on. Overall it was a great experience and i recommend everyone reading this readme to give it a try as well. Below are the details of project created by me and hosted using Github pages.
+
 - 50 mini projects created using HTML,CSS & JS, inspired by [Traversy Media](https://50projects50days.com/).
 - Deployed mini projects using Github pages.
 
