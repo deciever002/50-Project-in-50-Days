@@ -2,6 +2,12 @@
 
 Welcome to the documentation for the "50 Projects in 50 Days" challenge! In this repository, you'll find a collection of 50 mini projects that were created over the span of 50 days using HTML, CSS, and JavaScript. These projects were inspired by the [Traversy Media's 50 Projects in 50 Days](https://50projects50days.com/) course.
 
+## Project Hightlights
+
+
+https://github.com/deciever002/50-Project-in-50-Days/assets/112121338/ff2d4dc6-d90d-43f5-9c11-8afc096af219
+
+
 ### Learning Experience
 
 I embarked on this journey by following along with the "50 Projects in 50 Days" course provided by Brad Traversy. This course was a remarkable learning experience that helped me enhance my skills in various areas:
