@@ -4,9 +4,7 @@ Welcome to the documentation for the "50 Projects in 50 Days" challenge! In this
 
 ## Project Hightlights
 
-
-https://github.com/deciever002/50-Project-in-50-Days/assets/112121338/ff2d4dc6-d90d-43f5-9c11-8afc096af219
-
+https://github.com/deciever002/50-Project-in-50-Days/assets/112121338/552c9414-70db-4935-88bc-e2f471aab47f
 
 ### Learning Experience
 
